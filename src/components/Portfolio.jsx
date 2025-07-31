@@ -178,6 +178,31 @@ const Portfolio = () => {
                 </div>
             </div>
           </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.05, y: -5 }}
+            className="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-[400px] w-full"
+          >
+            <div className="relative h-full">
+              <img src="/Portfolio/week 7.png" alt="Project 2" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-black/40 flex flex-col justify-between p-6">
+                <div>
+                  <h3 className="text-xl font-semibold text-white mb-2">My Medicine Reminder</h3>
+                  <p className="text-white text-sm leading-relaxed">
+                  <b>Simple app to help users set daily medicine reminders and track their schedules.</b> 
+                  </p>
+                </div>
+                
+                <a href="https://my-medicine-reminder-space.netlify.app/auth" target="_blank" rel="noopener noreferrer">
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="mt-4 inline-flex items-center px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
+                >
+                  View Project
+                  <svg className="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </motion.button>
         </div>
       </div>
     </section>
