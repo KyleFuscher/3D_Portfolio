@@ -178,7 +178,7 @@ const Portfolio = () => {
                 </div>
             </div>
           </motion.div>
-          <motion.div
+           <motion.div
             whileHover={{ scale: 1.05, y: -5 }}
             className="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-[400px] w-full"
           >
@@ -203,6 +203,10 @@ const Portfolio = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </motion.button>
+              </a>
+                </div>
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>
